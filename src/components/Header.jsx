@@ -29,7 +29,7 @@ const Header = () => {
         <header style={headerStyle}>
             <h1 style={titleStyle}>Sonia Frances </h1>
             <nav style={navStyle}>
-                <NavLink to="/" className="link-hover-effect" style={linkStyle} activeClassName="active">About Me</NavLink>
+                <NavLink to="/" className="link-hover-effect" style={linkStyle} activeClassName="active">About</NavLink>
                 <NavLink to="/portfolio" className="link-hover-effect" style={linkStyle} activeClassName="active">Portfolio</NavLink>
                 <NavLink to="/contact" className="link-hover-effect" style={linkStyle} activeClassName="active">Contact</NavLink>
                 <NavLink to="/resume" className="link-hover-effect" style={linkStyle} activeClassName="active">Resume</NavLink>

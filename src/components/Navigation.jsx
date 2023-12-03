@@ -32,7 +32,7 @@ const StyledNavLink = styled(NavLink)`
 const Navigation = () => {
     return (
         <StyledNav>
-            <StyledNavLink to="/" className="link-hover-effect"  activeClassName="active">About Me</StyledNavLink>
+            <StyledNavLink to="/" className="link-hover-effect"  activeClassName="active">About</StyledNavLink>
             <StyledNavLink to="/portfolio" className="link-hover-effect" activeClassName="active">Portfolio</StyledNavLink>
             <StyledNavLink to="/contact" className="link-hover-effect" activeClassName="active">Contact</StyledNavLink>
             <StyledNavLink to="/resume" className="link-hover-effect" activeClassName="active">Resume</StyledNavLink>
