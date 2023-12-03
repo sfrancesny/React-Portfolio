@@ -1,0 +1,103 @@
+.resume {
+    background-color: #DDA0DD; 
+    padding: 20px;
+    text-align: center; /* Center the content */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+}
+
+.resume h2 {
+    color: #fff;
+    background-color: #4A235A;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resume h3 {
+    color: #333; /* Dark text for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+    text-align: center; 
+}
+
+.resume-download {
+    background-color: #7D3C98; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none; /* Remove underline from link */
+    margin-bottom: 30px; /* Spacing below the download button */
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.resume-download:hover {
+    background-color: #A770D6;
+}
+
+.skills, .experience, .education, .certifications {
+    text-align: center; /* Align text to the center for these sections */
+    margin: auto;
+    max-width: 800px; /* Restrict the width for better readability */
+    background-color: white; /* White background for the content */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+.skills h3, .experience h3, .education h3, .certifications h3 {
+    color: #333;
+    margin-bottom: 15px; /* Spacing below the section heading */
+}
+
+.skills ul, .experience ul, .education ul, .certifications ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.skills li, .experience li, .education div, .certifications div {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+.skills ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Add space between items */
+}
+
+.skills li {
+    margin-bottom: 10px; /* Space between rows if wrapped */
+}
+
+.experience h4, .education h4, .certifications h4 {
+    margin-top: 0;
+    color: #007bff; /* Blue color for role and company */
+}
+
+.experience p, .education p, .certifications p {
+    margin-bottom: 5px; /* Spacing below the duration */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+    .skills ul, .experience ul, .education ul, .certifications ul {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Align items to the center */
+    }
+
+    .skills li, .experience li, .education div, .certifications div {
+        margin-right: 0; /* Remove right margin on small screens */
+    }
+}

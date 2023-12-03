@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sonia Nyenkan</title>
+    <meta name="description" content="A brief description of your portfolio." />
+    <style>
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+      }
+
+      #root {
+          padding: 20px;
+          max-width: 1200px;
+          margin: 0 auto; /* Center the content */
+          position: relative; /* Ensure root is above the video */
+          z-index: 2;
+      }
+
+      .background-video {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: 1;
+      }
+  </style>
+  
+  </head>
+  <body>
+    <!-- Background Video -->
+    <video autoplay loop muted class="background-video">
+        <source src="/background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

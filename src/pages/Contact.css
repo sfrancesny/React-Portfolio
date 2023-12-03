@@ -1,0 +1,57 @@
+.contact {
+    background-color: #f5f5f5; /* Light grey background for the section */
+    padding: 20px;
+    text-align: center; /* Center the content */
+    font-family: 'Arial', sans-serif;
+}
+
+.contact h2 {
+    color: #fff;
+    background-color: #4A235A;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+    max-width: 500px; /* Restrict the width for better readability */
+    margin: auto; /* Center the form */
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Spacing below each input */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+.contact button {
+    background-color: #7D3C98;; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #A770D6; /* Darker blue on hover */
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: 10px; /* Spacing below error message */
+}
+
