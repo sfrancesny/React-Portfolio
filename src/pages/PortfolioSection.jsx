@@ -3,12 +3,12 @@ import Project from '../components/Project.jsx';
 import './PortfolioSection.css';
 
 // Import images
-import reciperadarImage from './images/reciperadar.PNG';
-import restroposImage from './images/restropos.PNG';
-import joketranslatorImage from './images/joketranslator.JPG';
-import notetakerImage from './images/notetaker.PNG';
-import horImage from './images/Hor.JPG';
-import webdevelopmentquizImage from './images/webdevelopmentquiz.PNG';
+import reciperadarImage from '../images/reciperadar.PNG';
+import restroposImage from '../images/restropos.PNG';
+import joketranslatorImage from '../images/joketranslator.JPG';
+import notetakerImage from '../images/notetaker.PNG';
+import horImage from '../images/Hor.JPG';
+import webdevelopmentquizImage from '../images/webdevelopmentquiz.PNG';
 
 const PortfolioSection = () => {
     const collaborationProjects = [

@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Import images
-import githubLogo from './images/githublogo.JPG';
-import linkedinLogo from './images/linkedinlogo.PNG';
-import instagramLogo from './images/instagramlogo.PNG';
+import githubLogo from '../images/githublogo.JPG';
+import linkedinLogo from '../images/linkedinlogo.PNG';
+import instagramLogo from '../images/instagramlogo.PNG';
 
 const StyledFooter = styled.footer`
     background-color: #800080; 

@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutMe.css';
 
 // Import the image
-import avatarImage from './images/avatar.JPG';
+import avatarImage from '../images/avatar.JPG';
 
 const AboutMe = () => {
     return (
