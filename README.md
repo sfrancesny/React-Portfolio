@@ -7,7 +7,7 @@ Dive into a world where art meets technology. Here, you'll find a collection of 
 
 
 ## Usage 
-To view the portfolio click the link provided.
+To view my portfolio website click the link provided.
 
 
 ## Screenshots
