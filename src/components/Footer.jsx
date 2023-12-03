@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// Import images
+import githubLogo from './images/githublogo.JPG';
+import linkedinLogo from './images/linkedinlogo.PNG';
+import instagramLogo from './images/instagramlogo.PNG';
+
 const StyledFooter = styled.footer`
     background-color: #800080; 
     color: #ecf0f1;
@@ -39,13 +44,13 @@ const Footer = () => {
             <h2>Stay Updated</h2>
             <SocialLinks>
                 <SocialLink href="https://github.com/sfrancesny" target="_blank" rel="noopener noreferrer">
-                    <img src="/images/githublogo.JPG" alt="GitHub" />
+                    <img src={githubLogo} alt="GitHub" />
                 </SocialLink>
                 <SocialLink href="https://linkedin.com/in/nyenkan-sonia" target="_blank" rel="noopener noreferrer">
-                    <img src="/images/linkedinlogo.PNG" alt="LinkedIn" />
+                    <img src={linkedinLogo} alt="LinkedIn" />
                 </SocialLink>
                 <SocialLink href="https://instagram.com/sonianyenkan" target="_blank" rel="noopener noreferrer">
-                    <img src="/images/instagramlogo.PNG" alt="Instagram" />
+                    <img src={instagramLogo} alt="Instagram" />
                 </SocialLink>
             </SocialLinks>
         </StyledFooter>
@@ -53,4 +58,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
