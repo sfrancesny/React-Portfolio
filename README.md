@@ -11,7 +11,7 @@ To view the portfolio click the link provided.
 
 
 ## Screenshots
-<img src="/images/portfolio-screenshot.PNG"/>
+![Portfolio Screenshot](docs/portfolio-screenshot.PNG)
 
 ## Link
 Link To Portfolio: https://
