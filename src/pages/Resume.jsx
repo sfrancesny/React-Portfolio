@@ -58,7 +58,7 @@ const Resume = () => {
     return (
         <section className="resume">
             <h2>My Resume</h2>
-            <a href="/SoniaNyenkanResume.pdf" download className="resume-download">Download Resume</a>
+            <a href="/SoniaNyenkanSoftwareDeveloper.pdf" download className="resume-download">Download Resume</a>
             
             {/* Technical Skills Section */}
             <div className="skills">
