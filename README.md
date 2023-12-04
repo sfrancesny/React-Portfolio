@@ -14,4 +14,4 @@ To view my portfolio website click the link provided.
 ![Portfolio Screenshot](portfolio-screenshot.PNG)
 
 ## Link
-Link To Portfolio: https://656c36e99cf6c75b77d9d35a--harmonious-bubblegum-a4e395.netlify.app/
+Link To Portfolio: https://harmonious-bubblegum-a4e395.netlify.app/
